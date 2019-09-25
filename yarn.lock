@@ -2108,6 +2108,13 @@
     typescript "^3.6.3"
     vuepress "^1.0.4"
 
+"@polkadot/extension-inject@^0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/extension-inject/-/extension-inject-0.11.1.tgz#a89207d70518551599101bc2b150e5abb135f8a2"
+  integrity sha512-sbMvQOglfOtf9e7LZcVxurBQhA5HFi+bvQiXveTI02+PtssK5JMeHSPCxjGxWMtzNzG9lCEoGT9g6zqrGpnFvQ==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+
 "@polkadot/jsonrpc@^0.93.0-beta.11":
   version "0.93.0-beta.11"
   resolved "https://registry.yarnpkg.com/@polkadot/jsonrpc/-/jsonrpc-0.93.0-beta.11.tgz#0970654b3dc14445d4d50f0b8a04daa436c9d75d"
@@ -2175,12 +2182,12 @@
     isomorphic-fetch "^2.2.1"
     websocket "^1.0.29"
 
-"@polkadot/ts@^0.1.72":
-  version "0.1.72"
-  resolved "https://registry.yarnpkg.com/@polkadot/ts/-/ts-0.1.72.tgz#e1f5d0bb11b636d0f60855000cb4ab25cd9a2e69"
-  integrity sha512-KDZKxkkFMw6RWx0zwjBeVsdm7vFonhTc7S5biOm5oqVVM2tIH0iN/WPOEvA6mFmwP1KaNdAZisUc/0BG2HBQaQ==
+"@polkadot/ts@^0.1.73":
+  version "0.1.73"
+  resolved "https://registry.yarnpkg.com/@polkadot/ts/-/ts-0.1.73.tgz#883ce24319171217837b43caa3403e16a6881b68"
+  integrity sha512-+dfGKoc3+CtJsYA1vsBe3CFRvq3EL8Dt8vNGdoCvIcsEp4A4zU3114I/janNtqbcgciGGjtxN5Md1QCIShNRrQ==
   dependencies:
-    "@types/chrome" "^0.0.88"
+    "@types/chrome" "^0.0.89"
 
 "@polkadot/types@^0.93.0-beta.11":
   version "0.93.0-beta.11"
@@ -2336,6 +2343,13 @@
   version "0.0.88"
   resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.88.tgz#0041a101d69f78008910927c5b3299a00d8660db"
   integrity sha512-JBsIrBZ2adJhlXvJ+1j0xLbcfOfwee/WAg7Lp2NE+Wf3m0vXMJFWv/PPjqNk5ZUXDeY/qDxPHe+PUjxnl8HWFg==
+  dependencies:
+    "@types/filesystem" "*"
+
+"@types/chrome@^0.0.89":
+  version "0.0.89"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.89.tgz#0d5baef543aaa0715b345b57b86cba6ca708b524"
+  integrity sha512-nWgL4U38SnIuMpG2rKMCGDknfZb193KFY15imqHUVFF4IJAVXvdEJOOgtcX9v2XsAaZiz2UUOInvWk5x1DhENQ==
   dependencies:
     "@types/filesystem" "*"
 
@@ -5725,11 +5739,6 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
-
-edgeware-node-types@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/edgeware-node-types/-/edgeware-node-types-1.0.10.tgz#eb40ef4308f84d64975edc99d12ac5da891ee6a3"
-  integrity sha512-iGMjkxtaT0FE5TR8DTucF+63IbtGHiieNxNkPTlsGYGt1JaPc6aP0ApnSQKYu2NiQaVcg1RB+BDMmGfFk1bnhw==
 
 ee-first@1.1.1:
   version "1.1.1"
