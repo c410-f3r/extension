@@ -866,6 +866,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.7.2":
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.2.tgz#111a78002a5c25fc8e3361bedc9529c696b85a6a"
+  integrity sha512-JONRbXbTXc9WQE2mAZd1p0Z3DZ/6vaQIkgYMSTP3KjRCyd7rCZCcfhCyX+YjwcKxcZ82UrxbRD358bpExNgrjw==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.4.0", "@babel/template@^7.7.0":
   version "7.7.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.7.0.tgz#4fadc1b8e734d97f56de39c77de76f2562e597d0"
@@ -2129,6 +2136,13 @@
     typedoc-plugin-no-inherit "^1.1.10"
     typescript "^3.7.2"
     vuepress "^1.2.0"
+
+"@polkadot/extension-inject@^0.14.0-beta.2":
+  version "0.14.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@polkadot/extension-inject/-/extension-inject-0.14.0-beta.2.tgz#b6052e96127fe6955c6bb99ab838c1364ce29698"
+  integrity sha512-A2B+v/JJxb5NUlikcNSDsfM34ppgkd/qUbW5i6Hdn+y7RiddaMIhR7nkra6MFdKeTMyh1FaiBzYDZst+4mRgYw==
+  dependencies:
+    "@babel/runtime" "^7.7.1"
 
 "@polkadot/jsonrpc@^0.96.0-beta.34":
   version "0.96.0-beta.34"
@@ -5622,11 +5636,6 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
-
-edgeware-node-types@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/edgeware-node-types/-/edgeware-node-types-1.0.10.tgz#eb40ef4308f84d64975edc99d12ac5da891ee6a3"
-  integrity sha512-iGMjkxtaT0FE5TR8DTucF+63IbtGHiieNxNkPTlsGYGt1JaPc6aP0ApnSQKYu2NiQaVcg1RB+BDMmGfFk1bnhw==
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -13791,7 +13800,12 @@ typedoc@^0.15.0:
     typedoc-default-themes "^0.6.0"
     typescript "3.5.x"
 
-typescript@3.5.x, typescript@^3.7.2:
+typescript@3.5.x:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
+  integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
+
+typescript@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.2.tgz#27e489b95fa5909445e9fef5ee48d81697ad18fb"
   integrity sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
